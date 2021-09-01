@@ -1,0 +1,24 @@
+{
+  "exchange": "binance",
+  "timeframe": "5m",
+  "max-open-trades": 5,
+  "starting-capital": 1000,
+  "backtesting-from": "2021-03-01",
+  "backtesting-to": "2021-05-01",
+  "backtesting-till-now": true,
+  "stoploss-type": "dynamic",
+  "stoploss": -4,
+  "roi": {
+    "0": 7,
+    "60": 6,
+    "120": 5
+  },
+  "pairs": ["ETH/USDT", "COMP/USDT", "MKR/USDT", "NEO/USDT", "EUR/USDT", "GBP/USDT"],
+  "currency": "USDT",
+  "fee": 0.25,
+  "strategy-name": "TrixStrategy",
+  "strategies-folder": "strategies",
+  "plots": true,
+  "mainplot_indicators": ["ema5"],
+  "subplot_indicators": ["volume"]
+}
