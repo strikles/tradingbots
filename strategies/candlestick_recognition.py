@@ -169,7 +169,7 @@ class CandlestickRecognitionStrategy(Strategy):
         """
         # BEGIN STRATEGY
 
-        dataframe['stoploss'] = 2 * dataframe['atr']
+        dataframe['stoploss'] = dataframe['close'] - 2 * dataframe['atr']
 
         # END STRATEGY
 
