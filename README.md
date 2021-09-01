@@ -1,0 +1,2 @@
+# tradingbots
+Dematrading competition bots
